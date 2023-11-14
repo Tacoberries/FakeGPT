@@ -1,24 +1,20 @@
-# ChatGPT-Simple
+# FakeGPT
 
-Build a simple locally hosted version of ChatGPT in less than 100 lines of code. Note: This is an unofficial ChatGPT repo and is not associated with OpenAI in anyway!
+Projeto simples utilizando a API do ChatGPT
 
 ## Getting started
 
-To run the example code, you need to create an [OpenAI API key](https://platform.openai.com/account/api-keys)
+Para utilizar a API, é necessário criar uma [OpenAI API key](https://platform.openai.com/account/api-keys)
 
-1. Install requirments using
+1. Instalar dependências:
 ```bash
 $ pip install -r requirements.txt
 ```
-2. Create a .env file and paste your API key there
+2. Crie uma .env e guarde sua chave API aqui. Isso irá manter ela segura.
 ```.env
 OPENAI_API_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
 ```
-3. Run the code and Enjoy
+3. Rode o codigo
 ```bash
 $ python server.py
 ```
-
-## The best part
-
-This code was written by GPT-4 : )
