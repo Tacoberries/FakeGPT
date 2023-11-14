@@ -1,24 +1,20 @@
-# ChatGPT-Simple
+# MiaGPT
 
-Build a simple locally hosted version of ChatGPT in less than 100 lines of code. Note: This is an unofficial ChatGPT repo and is not associated with OpenAI in anyway!
+Build simples da Mia usando a API do ChatGPT.
 
-## Getting started
+## Começando:
 
-To run the example code, you need to create an [OpenAI API key](https://platform.openai.com/account/api-keys)
+Pra conseguir fazer uso do chat, você deve gerar uma [OpenAI API key](https://platform.openai.com/account/api-keys)
 
-1. Install requirments using
+1. Instale as dependências
 ```bash
 $ pip install -r requirements.txt
 ```
-2. Create a .env file and paste your API key there
+2. Crie uma .env e copie sua OpenAI_API_KEY como no exemplo abaixo. Isso aumenta a segurança.
 ```.env
 OPENAI_API_KEY = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
 ```
-3. Run the code and Enjoy
+3. Rode e converse
 ```bash
 $ python server.py
 ```
-
-## The best part
-
-This code was written by GPT-4 : )
